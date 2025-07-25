@@ -1,5 +1,7 @@
 /* Removed Tailwind directives because build tool does not support them */
 @import "tailwindcss";
+@import "./styles/global.css";
+@import "./styles/variables.css";
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
