@@ -1,16 +1,16 @@
+import clsx from "clsx";
+
+import { variants } from './Button.styles';
+
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary';
+  variant?: keyof typeof variants;
 }
 
-export default function Button({ children, variant = 'primary', ...props }: ButtonProps) {
-  const base = 'px-4 py-2 rounded text-white';
-  const variants = {
-    primary: `${base} bg-blue-600 hover:bg-blue-700`,
-    secondary: `${base} bg-gray-600 hover:bg-gray-700`,
-  };
+export default function Button({ children, variant = 'primary', className, ...props }: ButtonProps) {
+  const buttonClass = clsx(variants[variant], className)
 
   return (
-    <button {...props} className={variants[variant]}>
+    <button className={buttonClass} disabled={variant === 'disabled'} {...props}>
       {children}
     </button>
   );
