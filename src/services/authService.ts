@@ -1,4 +1,4 @@
-import { loginApi, type AuthDataType } from "../api/authApi";
+import { loginApi, type AuthDataType } from "@api/authApi";
 
 export const loginService = async (data: AuthDataType) => {
   const response = await loginApi(data);
