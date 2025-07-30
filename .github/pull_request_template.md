@@ -2,7 +2,6 @@
 <!-- Briefly describe the goal and reason for creating this PR -->
 
 ## Major Changes
-<!-- Liệt kê các thay đổi chính -->
 - [ ] Feature A
 - [ ] Bug/ Defect/ Issue B
 - [ ] Refactor module C
