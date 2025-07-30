@@ -9,7 +9,7 @@
 - [ ] Update Document
 - [ ] etc
 
-## Screenshots / UI changes (if avaialable)
+## Screenshots / UI changes
 <!-- New UI, Mockup or Demo UI -->
 
 ## Checklist
@@ -18,6 +18,6 @@
 - [ ] etc
 
 ## Related Issues / Tasks
-<!-- Closes #123 or  link to task Jira/Notion -->
+<!-- Closesed Issue or link to task Jira/Notion -->
 - Related Issue/ task: #123
 - Figma: [link figma](https://...)
